@@ -1,5 +1,12 @@
 import React from 'react';
-import { Navbar, Banner, Hero } from '../components';
+import {
+  Navbar,
+  Banner,
+  Hero,
+  Featured,
+  Newsletter,
+  Footer,
+} from '../components';
 
 const Home = () => {
   return (
@@ -7,6 +14,9 @@ const Home = () => {
       <Navbar />
       <Banner />
       <Hero />
+      <Featured />
+      <Newsletter />
+      <Footer />
     </>
   );
 };

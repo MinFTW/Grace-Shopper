@@ -2,8 +2,8 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-    <div className='navbar bg-base-100'>
-      <div className='navbar-start '>
+    <div className='navbar'>
+      <div className='navbar-start'>
         <div className='dropdown'>
           <label tabIndex='0' className='btn btn-ghost lg:hidden'>
             <svg
@@ -23,7 +23,7 @@ const Navbar = () => {
           </label>
           <ul
             tabIndex='0'
-            className='dropdown-content menu rounded-box menu-compact mt-3 w-52 bg-base-100 p-2 shadow'
+            className='dropdown-content menu rounded-box menu-compact mt-3 w-52 bg-white p-2 shadow'
           >
             <li tabIndex='0'>
               <a className='justify-between'>
@@ -38,7 +38,7 @@ const Navbar = () => {
                   <path d='M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z' />
                 </svg>
               </a>
-              <ul className='p-2'>
+              <ul className='bg-white p-2'>
                 <li>
                   <a>Houseplants</a>
                 </li>
@@ -58,6 +58,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
+
         <ul className='menu menu-horizontal hidden p-0 lg:flex'>
           <li tabIndex='0'>
             <a>
@@ -72,7 +73,7 @@ const Navbar = () => {
                 <path d='M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z' />
               </svg>
             </a>
-            <ul className='p-2'>
+            <ul className='bg-white p-2'>
               <li>
                 <a>Houseplants</a>
               </li>
@@ -94,7 +95,9 @@ const Navbar = () => {
       </div>
 
       <div className='navbar-center '>
-        <a className='btn btn-ghost normal-case lg:text-3xl'>eCommerce.</a>
+        <a className='btn btn-ghost font-bold normal-case lg:text-4xl'>
+          eCommerce.
+        </a>
       </div>
 
       <div className='navbar-end'>
@@ -133,13 +136,13 @@ const Navbar = () => {
             </label>
             <div
               tabIndex='0'
-              className='card dropdown-content card-compact mt-3 w-52 bg-base-100 shadow'
+              className='card-compact card dropdown-content mt-3 w-52 bg-base-100 shadow'
             >
               <div className='card-body'>
                 <span className='text-lg font-bold'>8 Items</span>
                 <span className='text-info'>Subtotal: $999</span>
                 <div className='card-actions'>
-                  <button className='btn btn-primary btn-block'>
+                  <button className='btn btn-outline btn-block bg-teal-600 text-white'>
                     View cart
                   </button>
                 </div>
