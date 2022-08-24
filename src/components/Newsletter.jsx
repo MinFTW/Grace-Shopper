@@ -2,12 +2,16 @@ import React from 'react';
 
 const Newsletter = () => {
   return (
-    <div className='flex h-[40vh] flex-col items-center justify-center bg-pink-50'>
-      <h1 className='mb-5 text-7xl font-bold'>Newsletter</h1>
-      <p className='mb-5 text-xl'>Get updates about your favorite products.</p>
-      <div className='flex h-10 w-2/4 justify-between border-gray-400 bg-white'>
-        <input className='flex-8 border-none pl-5' />
-        <button className='flex w-20 items-center justify-center border-none bg-teal-600'>
+    <div className='flex h-[40vh] flex-col items-center justify-center bg-pink-50 p-4'>
+      <h1 className='mb-5 text-5xl font-bold md:text-5xl lg:text-7xl'>
+        Newsletter
+      </h1>
+      <p className='mb-5 text-base md:text-lg lg:text-xl'>
+        Get updates about your favorite products.
+      </p>
+      <div className='flex h-10 justify-between border-gray-400 bg-white md:w-1/2'>
+        <input className='md:flex-8 border-none pl-5' />
+        <button className='flex w-10 items-center justify-center border-none bg-teal-600 md:w-20'>
           <svg
             xmlns='http://www.w3.org/2000/svg'
             viewBox='0 0 24 24'

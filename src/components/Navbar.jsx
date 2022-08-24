@@ -2,7 +2,7 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-    <div className='navbar'>
+    <nav className='navbar'>
       <div className='navbar-start'>
         <div className='dropdown'>
           <label tabIndex='0' className='btn btn-ghost lg:hidden'>
@@ -94,13 +94,13 @@ const Navbar = () => {
         </ul>
       </div>
 
-      <div className='navbar-center '>
-        <a className='btn btn-ghost font-bold normal-case lg:text-4xl'>
+      <div className='navbar-center'>
+        <a className='btn btn-ghost text-xl font-bold normal-case md:text-4xl lg:text-4xl'>
           eCommerce.
         </a>
       </div>
 
-      <div className='navbar-end'>
+      <div className='navbar-end ml-10 md:ml-0 lg:ml-0'>
         <button className='btn btn-ghost btn-circle lg:mr-5'>
           <svg
             xmlns='http://www.w3.org/2000/svg'
@@ -129,14 +129,14 @@ const Navbar = () => {
                   <path fill='none' d='M0 0h24v24H0z' />
                   <path d='M12 2a6 6 0 0 1 6 6v1h4v2h-1.167l-.757 9.083a1 1 0 0 1-.996.917H4.92a1 1 0 0 1-.996-.917L3.166 11H2V9h4V8a6 6 0 0 1 6-6zm6.826 9H5.173l.667 8h12.319l.667-8zM13 13v4h-2v-4h2zm-4 0v4H7v-4h2zm8 0v4h-2v-4h2zm-5-9a4 4 0 0 0-3.995 3.8L8 8v1h8V8a4 4 0 0 0-3.8-3.995L12 4z' />
                 </svg>
-                <span className='badge indicator-item badge-sm bg-teal-600'>
+                <span className='badge indicator-item badge-sm bg-orange-500'>
                   8
                 </span>
               </div>
             </label>
             <div
               tabIndex='0'
-              className='card-compact card dropdown-content mt-3 w-52 bg-base-100 shadow'
+              className='card dropdown-content card-compact mt-3 w-52 bg-base-100 shadow'
             >
               <div className='card-body'>
                 <span className='text-lg font-bold'>8 Items</span>
@@ -175,7 +175,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-    </div>
+    </nav>
   );
 };
 
