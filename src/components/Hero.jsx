@@ -1,6 +1,9 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const Hero = () => {
+  const navigate = useNavigate();
+
   return (
     <div className='hero min-h-[90vh] bg-sky-50'>
       <div className='hero-content flex-col lg:flex-row'>
@@ -15,7 +18,10 @@ const Hero = () => {
             excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
             a id nisi.
           </p>
-          <button className='btn rounded-full bg-orange-500 hover:bg-orange-600'>
+          <button
+            className='btn rounded-full bg-orange-500 hover:bg-orange-600'
+            onClick={() => navigate('/products')}
+          >
             START SHOPPING
           </button>
         </div>
