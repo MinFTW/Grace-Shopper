@@ -2,15 +2,15 @@ import React from 'react';
 
 const Newsletter = () => {
   return (
-    <div className='flex h-[50vh] flex-col items-center justify-center bg-red-100'>
+    <div className='flex h-[40vh] flex-col items-center justify-center bg-red-50 p-5'>
       <h1 className='mb-10 text-5xl font-bold'>Newsletter</h1>
       <div className='flex flex-col items-center justify-between'>
         <p className='mb-5 text-lg'>
           Join our mailing list to get updates about your favorite products!
         </p>
         <div className='flex items-center justify-center'>
-          <input className='h-12 w-[35vw] rounded'></input>
-          <button className='btn w-24 border-none bg-teal-600'>
+          <input className='h-12 rounded md:w-[50vw] lg:w-[35vw]'></input>
+          <button className='btn w-16 border-none bg-teal-600 lg:w-24'>
             <svg
               xmlns='http://www.w3.org/2000/svg'
               viewBox='0 0 24 24'

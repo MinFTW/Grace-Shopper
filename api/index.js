@@ -12,7 +12,7 @@ apiRouter.get('/health', (req, res, next) => {
   });
 });
 
-// apiRouter.use('/products', require('./products'));
+apiRouter.use('/products', require('./products'));
 // apiRouter.use('/users', require('./users'));
 // apiRouter.use('/orders', require('./orders'));
 // apiRouter.use('/orderProducts', require('./orderProducts'));

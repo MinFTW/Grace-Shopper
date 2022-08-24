@@ -1,15 +1,16 @@
 import React from 'react';
-import { Navbar, Banner, Newsletter, Footer } from '../components';
+import { Navbar, Banner, Products, Newsletter, Footer } from '../components';
 
-const Products = () => {
+const ProductsList = () => {
   return (
     <>
       <Navbar />
       <Banner />
+      <Products />
       <Newsletter />
       <Footer />
     </>
   );
 };
 
-export default Products;
+export default ProductsList;

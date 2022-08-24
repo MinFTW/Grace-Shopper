@@ -1,19 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import { getAPIHealth } from '../axios-services';
+import React from 'react';
 
 const Footer = () => {
-  const [APIHealth, setAPIHealth] = useState('');
-
-  useEffect(() => {
-    const getAPIStatus = async () => {
-      const { healthy } = await getAPIHealth();
-      setAPIHealth(healthy ? 'api is up! :D' : 'api is down :/');
-    };
-
-    getAPIStatus();
-  }, []);
-
-  console.log(APIHealth);
   return (
     <footer>
       <div className='container mx-auto px-6 py-4'>
@@ -152,7 +139,7 @@ const Footer = () => {
                   </span>
                 </div>
 
-                <div className='-mx-2 mt-4 flex flex-col lg:flex-row'>
+                <div className='-mx-2 mt-4 flex flex-col'>
                   <button
                     type='button'
                     className='dark:focus:ring-[#0a66c2]/55 mr-2 mb-2 inline-flex items-center rounded-2xl bg-[#0a66c2] px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-[#0a66c2]/90 focus:outline-none focus:ring-4 focus:ring-[#0a66c2]/50'

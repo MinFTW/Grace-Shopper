@@ -4,7 +4,7 @@ const Featured = () => {
   return (
     <div className='m-5 items-center justify-center gap-5 sm:flex-col md:flex lg:flex lg:flex-row'>
       <article
-        className='mb-5 flex h-[70vh] w-full max-w-2xl cursor-pointer flex-col items-center justify-center bg-cover bg-center p-10'
+        className='mb-3 flex h-[70vh] w-full max-w-2xl cursor-pointer flex-col items-center justify-center bg-cover bg-center p-10 md:mb-0'
         style={{
           backgroundImage: 'url(https://bit.ly/3dAHb66)',
         }}
@@ -18,7 +18,7 @@ const Featured = () => {
       </article>
 
       <article
-        className='mb-5 flex h-[70vh] w-full max-w-2xl cursor-pointer flex-col items-center justify-center bg-cover bg-center p-10'
+        className='mb-3 flex h-[70vh] w-full max-w-2xl cursor-pointer flex-col items-center justify-center bg-cover bg-center p-10 md:mb-0'
         style={{
           backgroundImage: 'url(https://bit.ly/3bTLBoh)',
         }}

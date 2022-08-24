@@ -9,7 +9,7 @@ const Navbar = () => {
           <label tabIndex='0' className='btn btn-ghost lg:hidden'>
             <svg
               xmlns='http://www.w3.org/2000/svg'
-              className='h-5 w-5'
+              className='h-5 w-5 md:h-8 md:w-8'
               fill='none'
               viewBox='0 0 24 24'
               stroke='currentColor'
@@ -108,7 +108,7 @@ const Navbar = () => {
         <button className='btn btn-ghost btn-circle lg:mr-5'>
           <svg
             xmlns='http://www.w3.org/2000/svg'
-            className='h-5 w-5 lg:h-8 lg:w-8'
+            className='h-5 w-5 md:h-7 md:w-7 lg:h-8 lg:w-8'
             fill='none'
             viewBox='0 0 24 24'
             stroke='currentColor'
@@ -128,7 +128,7 @@ const Navbar = () => {
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
                   viewBox='0 0 24 24'
-                  className='h-5 w-5 lg:h-9 lg:w-9'
+                  className='h-5 w-5 md:h-7 md:w-7 lg:h-9 lg:w-9'
                 >
                   <path fill='none' d='M0 0h24v24H0z' />
                   <path d='M12 2a6 6 0 0 1 6 6v1h4v2h-1.167l-.757 9.083a1 1 0 0 1-.996.917H4.92a1 1 0 0 1-.996-.917L3.166 11H2V9h4V8a6 6 0 0 1 6-6zm6.826 9H5.173l.667 8h12.319l.667-8zM13 13v4h-2v-4h2zm-4 0v4H7v-4h2zm8 0v4h-2v-4h2zm-5-9a4 4 0 0 0-3.995 3.8L8 8v1h8V8a4 4 0 0 0-3.8-3.995L12 4z' />
@@ -155,7 +155,7 @@ const Navbar = () => {
           </div>
           <div className='dropdown dropdown-end'>
             <label tabIndex='0' className='avatar btn btn-ghost btn-circle'>
-              <div className='w-7 rounded-full lg:w-10'>
+              <div className='w-7 rounded-full md:w-8 lg:w-10'>
                 <img src='https://placeimg.com/80/80/people' />
               </div>
             </label>
