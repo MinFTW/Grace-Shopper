@@ -9,7 +9,7 @@ const Product = ({ product }) => {
       <div className='card-body'>
         <h2 className='card-title'>
           {product.name}
-          <div className='badge badge-secondary p-3'>NEW</div>
+          <div className='badge badge-secondary flex items-center p-2'>NEW</div>
         </h2>
         <div className='mt-5 flex flex-row items-center justify-between'>
           <div className='badge badge-outline p-3'>{product.category}</div>

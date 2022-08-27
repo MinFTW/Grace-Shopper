@@ -21,7 +21,7 @@ const Products = () => {
   }, []);
 
   return (
-    <div className='mt-10 mb-10 flex flex-col items-center justify-center lg:flex-row'>
+    <div className='mt-10 mb-10 flex flex-col items-center justify-center lg:flex-row lg:flex-wrap'>
       {products.map((product) => {
         return (
           <Link to={`/products/${product.id}`} key={product.id}>

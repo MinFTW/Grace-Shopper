@@ -103,6 +103,18 @@ async function populateInitialData() {
     });
 
     const product4 = await Products.createProduct({
+      name: 'Pilea Peperomioides',
+      description: `Each of its lily pad like leaves float on dainty looking stems that will bob around independently in a gentle breeze. 
+      Towards the upper part of every single leaf will be a white, or lighter shade of green, dot where the stem meets the leaf and holds it in place.
+         `,
+      price: 14.99,
+      inStock: true,
+      category: 'Houseplant',
+      imageURL:
+        'https://cdn.shopify.com/s/files/1/2528/3612/products/PileaPeperomioides_FiberPot_473x473.jpg?v=1636587409',
+    });
+
+    const product5 = await Products.createProduct({
       name: 'Watering Can',
       description: `A beautiful watering can! Holds approximately 1 liter.
          `,
